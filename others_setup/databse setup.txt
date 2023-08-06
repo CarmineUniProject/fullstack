@@ -1,0 +1,41 @@
+-- DATABASE SETUP MANUALE (CREATION AND POPULATION) --
+
+-- TABLE CREATION --
+
+create table macchinario(
+    idMacchina char(10),
+    nomeMacchina char(50),
+    marca char (50),
+    prezzo int(10),
+    quantita int(10),
+    disponibilita char(2),
+    
+    primary key (idMacchina)
+);
+
+create table utente (
+    nome char (50),
+    cognome char (50),
+    email char (50),
+    username char (50),
+    password char (255),
+    telefono char (255),
+    
+    primary key (email)
+);
+
+create table carrello (
+    idCarrello int (255) not null auto_increment,
+    emailUtente char (50),
+    nomeProdotto char (255),
+    prezzoProdotto int (255),
+    
+    primary key (idCarrello)
+);
+
+-- TABLE POPULATION --
+
+INSERT INTO `macchinario` (`idMacchina`, `nomeMacchina`, `marca`, `prezzo`, `quantita`, `disponibilita`) VALUES ('1', 'Bench press', 'Panatta', '550', '3', 'si', 'bench_press.png'), ('2', 'Leg press', 'Technogym', '600', '1', 'si', 'leg_press.png'), ('3', 'Hack squat', 'Technogym', '575', '1', 'si', 'hack_squat.png'), ('4', 'Pendulum squat', 'Panatta', '850', '1', 'si'), ('5', 'Cable station', 'Panatta', '1500', '1', 'no', 'pendulum_squat.png'), ('6', 'Barbell 10kg', 'Technogym', '130', '1', 'si', 'barbell_10.png'), ('7', 'Barbell 20kg', 'Technogym', '180', '1', 'si', 'barbell_20.png'), ('8', 'Lat pulldown machine', 'Technogym', '370', '1', 'si', 'lat_machine.png'), ('9', 'Multipower station', 'Panatta', '300', '1', 'si', 'mpw.png'), ('10', 'Rack', 'Technogym', '655', '1', 'si', 'rack.png');
+
+-- UTENTE DI DEFAULT --
+Si può accedere al sito con un utente di default: 'Email: a@a, Password: a'
