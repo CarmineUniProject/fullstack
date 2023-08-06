@@ -22,4 +22,5 @@ Per rendere funzionante il lato client sarà necessario andare a scaricare le li
 la cartella 'node_modules'
 Usando il comando 'npm i' dovremmo essere in grado di scaricare tutte le dipendenze necessarie
 
-La cartella contenente i file è anche reperibile al seguente link: (link google drive)
+La cartella contenente i file è anche reperibile al seguente link:
+https://drive.google.com/drive/folders/1LdBcU_vQnXPtItjAuWFgdqAfdUAkPQ0U?usp=sharing
