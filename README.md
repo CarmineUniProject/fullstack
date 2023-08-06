@@ -17,6 +17,7 @@ Per popolare il database utilizzare i dati già forniti nel file 'databse setup'
 Per rendere funzionante il lato server sarà semplicemente necessario andare a rimuovere tutti i file dal .zip (server-backend.zip)
 
 -- LATO CLIENT --
+
 Per rendere funzionante il lato client sarà necessario andare a scaricare le librerie npm necessaie dato che non è pratico importare tutta
 la cartella 'node_modules'
 
