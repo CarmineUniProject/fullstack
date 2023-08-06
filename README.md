@@ -20,7 +20,6 @@ Per rendere funzionante il lato server sarà semplicemente necessario andare a r
 
 Per rendere funzionante il lato client sarà necessario andare a scaricare le librerie npm necessaie dato che non è pratico importare tutta
 la cartella 'node_modules'
+Usando il comando 'npm i' dovremmo essere in grado di scaricare tutte le dipendenze necessarie
 
-La cartella contenente i file è anche reperibile al seguente link: 'link cartella'
-
-Se tutti i passaggi sono corretti avremo un e-commerce funzionante a nostra disposizione
+La cartella contenente i file è anche reperibile al seguente link: (link google drive)
