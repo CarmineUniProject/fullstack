@@ -1,5 +1,5 @@
-# Tecnologie_Internet
-# fullstack
+# Tecnologie Internet fullstack project
+
 Matricola 317741 corso IET
 
 COME FAR FUNZIONARE IL PROGETTO
